@@ -1,0 +1,39 @@
+.header{
+    background-image: url(../images/header-contact.jpg);
+    min-height: 150px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 55%;
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, p{
+    text-align: center;
+}
+#c{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 70px;
+    vertical-align: text-top;
+}
+#contato{
+    margin: auto;
+    position: center;
+    text-align: center;
+    
+}
+fieldset{
+    margin: auto;
+    width: 300px;
+}
+legend{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    margin: auto;
+    position: sticky;
+}
+

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+}
+ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.wrapper {
+    width: 1900px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(198, 219, 215);
+}
+.menu > ul{
+position: fixed;
+font-size: 20px;
+}
+
+.header > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(12, 152, 152);
+}
+#nome{
+    font-family:  'Cinzel Decorative', cursive;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(12, 152, 152);
+}
+
+.content {
+    background-color: white;
+    min-height: 500px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgba(209, 229, 243, 0.749);
+    min-height: 150px;
+    display: flexbox;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+.footer > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 15px;
+}
